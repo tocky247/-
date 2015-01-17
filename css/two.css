@@ -1,0 +1,97 @@
+body {
+    -webkit-touch-callout: none ;
+    -webkit-text-size-adjust: none ; -ms-text-size-adjust: none ;
+    -webkit-user-select: none ; -moz-user-select: none ; -ms-user-select: none ; user-select: none ;
+    -webkit-highlight: none ;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) ;
+    -webkit-tap-highlight-color: transparent ;      /* For some Androids */
+}
+
+html {
+    -ms-touch-action: pan-x ;
+}
+
+body {
+    -ms-touch-action: pan-y ;
+    -ms-content-zooming: none ;
+}
+
+input, textarea  {
+    -webkit-user-select: text ; -moz-user-select: text ; -ms-user-select: text ; user-select: text ;
+}
+
+.align-center {
+    text-align: center ;
+}
+body {
+	background-color: pink;
+}
+h1 {
+	font-family: cursive;
+	text-align:center;
+	color:#CC0099;
+}
+input.push {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align:center;
+	background-color: #FF3333;
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+input.push:hover {
+	 background-color: #CC0000;
+	 color: #fff;
+}
+input.push2 {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align:center;
+	background-color: #00FF00;
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+input.push2:hover {
+	 background-color: #00CC00;
+	 color: #fff;
+}
+input.push3 {
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align:center;
+	background-color: #3399FF;
+	color: #fff;
+	width: 120px;
+	height: 120px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+}
+input.push3:hover {
+	 background-color: #0033CC;
+	 color: #fff;
+}
+input.push4 {
+	font-size: 0.8em;
+	font-weight: bold;
+	text-align:center;
+	background-color: #CC6633;
+	color: #fff;
+	width: 80px;
+	height: 80px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+input.push4:hover {
+	 background-color: #663300;
+	 color: #fff;
+}

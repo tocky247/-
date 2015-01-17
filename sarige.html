@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+       
+    </style>
+
+    <link rel="stylesheet" href="css/sarige.css">
+</head>
+
+
+<body background="haikei.gif">
+<p>メッセージ<br>
+    <input type="text" id="camera" size="30" maxlength="10"></p>
+    
+    <p class="align-center">
+       <input type="button" class="push"  value="決定" onclick="page()">
+
+    </p>
+
+         
+    <script src="cordova.js"></script>          
+    <script src="xhr.js"></script>             
+    <script src="js/app.js"></script>           
+    <script src="js/init-app.js"></script>      
+    <script src="xdk/init-dev.js"></script>  
+    <script src="js/localforage.min.js"></script>
+    <script type="text/javascript">   
+			function transiteToCamera(text){   
+    　　　　　　　
+                window.location.href = "camera.html?" + text;
+　　　　　　　}
+
+　　　　　　　function page(){
+    　　　　　　　var text = document.getElementById("camera").value;
+　　　　　　　　//    localforage.setItem("shakeNubmer", number, transiteToShake3);
+   　　　　　　　 transiteToCamera(text);
+                
+　　　　　　　　　　}
+
+			</script>
+			
+    
+
+</body>
+
+</html>

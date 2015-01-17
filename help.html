@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Messenger</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+       
+    </style>
+
+    <link rel="stylesheet" href="css/help.css">
+</head>
+
+
+<body background="haikei.gif">
+    <h1>落とし方の説明</h1>
+    <p><li class="moji">フラれておとす</li>　相手にスマートフォンを振って<br>もらおう。40回振り終わると<br>メッセージが表示されるぞ♡</p>
+    <p><li class="moji">さりげなくおとす</li>　カメラを撮るふりをしよう。シャッターを押すとメッセージが表示されるぞ♡</p>
+    <p><li class="moji">あ、いけそう</li>　もういけると思ったらこれ。部屋を暗くしちゃおう。暗くなったらメッセージが表示されるぞ♡</p>
+    <p class="align-center">
+       <input type="button" class="push"  value="戻る" onclick="page()">
+
+    </p>
+
+         
+    <script src="cordova.js"></script>          
+    <script src="xhr.js"></script>             
+    <script src="js/app.js"></script>           
+    <script src="js/init-app.js"></script>      
+    <script src="xdk/init-dev.js"></script>  
+    <script type="text/javascript">
+			function page() {
+				window.location.href = "two.html";
+			}
+			</script>
+    
+    
+
+</body>
+
+</html>

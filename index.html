@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Messenger</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+
+    </style>
+
+    <link rel="stylesheet" href="css/hyoushi.css">
+</head>
+
+
+<body background="haikei.gif">
+    <h1>Love<br>messenger</h1>
+    <br>
+    <p class="align-center">
+       <input type="button" class="push"  value="Start" onclick="page()">
+
+    </p>
+
+
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/init-app.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script type="text/javascript">
+			function page() {
+				window.location.href = "two.html";
+			}
+			</script>
+
+
+
+</body>
+
+</html>

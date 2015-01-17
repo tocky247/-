@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Messenger</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <style>
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }                           @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }                                    @viewport { user-zoom: fixed ; }
+
+    </style>
+    <style type="text/css">
+        .align-center{text-align: right;
+        　　　vertical-align:text-bottom;}
+        
+    </style>
+
+    <link rel="stylesheet" href="css/camera2.css">
+</head>
+
+
+<body background="haikei.gif">
+    <audio autoplay>
+			<source src="GO FOR IT.mp3" type="audio/mp3">
+			<source src="GO FOR IT.ogg" type="audio/ogg">
+			<source src="GO FOR IT.m4a" type="audio/aac">
+    </audio>
+    <div id="camera"></div>
+    <p class="align-center">
+    <input type="button" class="push"  value="終了" onclick="end()">
+    </p>
+    
+    <script src="cordova.js"></script>
+    <script src="xhr.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/init-app.js"></script>
+    <script src="xdk/init-dev.js"></script>
+    <script src="js/localforage.min.js"></script>
+    <script src="js/camera2.js"></script>
+
+
+
+</body>
+
+</html>
